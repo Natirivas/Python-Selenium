@@ -2,8 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
 
-#https://googlechromelabs.github.io/chrome-for-testing/
-
 service = Service(executable_path="chromedriver.exe" )
 driver = webdriver.Chrome(service=service)
 
